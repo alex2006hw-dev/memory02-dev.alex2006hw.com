@@ -1,10 +1,10 @@
 "use strict";
 
 /////
-exports.HOSTNAME = "memory02-dev.pointlook.com";
+exports.HOSTNAME = "memory02-dev.alex2006hw.com";
 
 exports.ROOT_MEMORIES = ["https://tropospheric.mybluemix.net/gun", "https://tropospheric-tropospheric.193b.starter-ca-central-1.openshiftapps.com/gun"];
-var MY_MEMORY = "https://dev-pl-redhat.193b.starter-ca-central-1.openshiftapps.com/gun";
+var MY_MEMORY = "https://dev-alex2006hw-redhat.193b.starter-ca-central-1.openshiftapps.com/gun";
 
 exports.CLOUD_MEMORIES = MY_MEMORY;
 
