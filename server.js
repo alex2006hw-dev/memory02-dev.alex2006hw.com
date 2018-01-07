@@ -151,13 +151,13 @@ if (false) {
 
 module.exports = {
   // Node.js app
-  port: process.env.OPENSHIFT_NODEJS_PORT || process.env.VCAP_APP_PORT || process.env.PORT || process.argv[2] || 3000,
+  port: process.env.OPENSHIFT_NODEJS_PORT || process.env.VCAP_APP_PORT || process.env.PORT || process.env.DEV_SERVICE_PORT || process.argv[2] || 8080,
   // API Gateway
   api: {
     // API URL to be used in the client-side code
     clientUrl: process.env.API_CLIENT_URL || '',
     // API URL to be used in the server-side code
-    serverUrl: process.env.API_SERVER_URL || "http://localhost:".concat(process.env.PORT || 3000)
+    serverUrl: process.env.API_SERVER_URL || "http://localhost:".concat(process.env.PORT || 8080)
   },
   // Database
   databaseUrl: process.env.DATABASE_URL || 'sqlite:data/database.sqlite',
