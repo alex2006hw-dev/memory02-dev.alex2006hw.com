@@ -236,8 +236,8 @@ module.exports = require("gun/gun");
     // Only activated in browser context
     if (false) {
       var removeCss = function() {};
-      module.hot.accept("!!../../../../../../../tmp/MWIxOWEyYzkzMThlZmExNTYwN2ZkMThk/memory02-alex2006hw/root/node_modules/css-loader/index.js??ref--1-rules-2!../../../../../../../tmp/MWIxOWEyYzkzMThlZmExNTYwN2ZkMThk/memory02-alex2006hw/root/node_modules/postcss-loader/lib/index.js??ref--1-rules-3!./ErrorPage.css", function() {
-        content = require("!!../../../../../../../tmp/MWIxOWEyYzkzMThlZmExNTYwN2ZkMThk/memory02-alex2006hw/root/node_modules/css-loader/index.js??ref--1-rules-2!../../../../../../../tmp/MWIxOWEyYzkzMThlZmExNTYwN2ZkMThk/memory02-alex2006hw/root/node_modules/postcss-loader/lib/index.js??ref--1-rules-3!./ErrorPage.css");
+      module.hot.accept("!!../../../../../../../tmp/MmQ3YmI2NDM1ZmE2ZTZhMzU4ODhlZGNk/memory02-alex2006hw/root/node_modules/css-loader/index.js??ref--1-rules-2!../../../../../../../tmp/MmQ3YmI2NDM1ZmE2ZTZhMzU4ODhlZGNk/memory02-alex2006hw/root/node_modules/postcss-loader/lib/index.js??ref--1-rules-3!./ErrorPage.css", function() {
+        content = require("!!../../../../../../../tmp/MmQ3YmI2NDM1ZmE2ZTZhMzU4ODhlZGNk/memory02-alex2006hw/root/node_modules/css-loader/index.js??ref--1-rules-2!../../../../../../../tmp/MmQ3YmI2NDM1ZmE2ZTZhMzU4ODhlZGNk/memory02-alex2006hw/root/node_modules/postcss-loader/lib/index.js??ref--1-rules-3!./ErrorPage.css");
 
         if (typeof content === 'string') {
           content = [[module.id, content, '']];
@@ -754,7 +754,9 @@ app.get('/login/facebook/return', __WEBPACK_IMPORTED_MODULE_24__passport__["a" /
 // --------------------------------------------------------
 // get current hypernova
 
-var MY_HYPERNOVA = 'http://localhost:3030/batch';
+var HYPER_PORT = process.env.HYPER_PORT || 3030;
+var HYPER_HOST = process.env.HYPER_HOST || 'localhost';
+var MY_HYPERNOVA = "http://".concat(HYPER_HOST, ":").concat(HYPER_PORT, "/batch");
 var renderer = new __WEBPACK_IMPORTED_MODULE_16_hypernova_client___default.a({
   url: MY_HYPERNOVA,
   plugins: [__WEBPACK_IMPORTED_MODULE_18__vendors_devModePlugin___default.a]

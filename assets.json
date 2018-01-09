@@ -1,32 +1,32 @@
 {
   "privacy": {
-    "js": "/assets/privacy.37644bd6.chunk.js"
+    "js": "/assets/privacy.34921367.chunk.js"
   },
   "about": {
-    "js": "/assets/about.71e9f0da.chunk.js"
+    "js": "/assets/about.a06d2400.chunk.js"
   },
   "register": {
-    "js": "/assets/register.5458acd6.chunk.js"
+    "js": "/assets/register.f5af487b.chunk.js"
   },
   "not-found": {
-    "js": "/assets/not-found.cacc949e.chunk.js"
+    "js": "/assets/not-found.56d83fa7.chunk.js"
   },
   "login": {
-    "js": "/assets/login.2f2d4943.chunk.js"
+    "js": "/assets/login.4c6e2da6.chunk.js"
   },
   "home": {
-    "js": "/assets/home.50cbb8f7.chunk.js"
+    "js": "/assets/home.9f8ef97c.chunk.js"
   },
   "contact": {
-    "js": "/assets/contact.d35d1dde.chunk.js"
+    "js": "/assets/contact.5d52c01a.chunk.js"
   },
   "admin": {
-    "js": "/assets/admin.b8033e58.chunk.js"
+    "js": "/assets/admin.f953783a.chunk.js"
   },
   "client": {
     "js": "/assets/client.ecc1223e.js"
   },
   "vendor": {
-    "js": "/assets/vendor.27c0001d.js"
+    "js": "/assets/vendor.2957dd04.js"
   }
 }
